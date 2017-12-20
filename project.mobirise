@@ -1,0 +1,1460 @@
+{
+  "settings": {
+    "name": "vidrepur3",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#3498db",
+        "buttonsColor": "#ffffff",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#3498db",
+        "infoColor": "#020687",
+        "warningColor": "#3498db",
+        "dangerColor": "#f1c40f",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#acacac",
+        "#232323",
+        "#171820",
+        "#eb5b52",
+        "#234a56",
+        "#c1dee2",
+        "#0b0906"
+      ]
+    },
+    "versionFirst": "4.4.0",
+    "uniqCompNum": 116,
+    "versionPublish": "4.5.0",
+    "favicon": "",
+    "noImageResize": "",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "16px",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#3498db!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#tabs1-1u\">КАЧЕСТВО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2e\">НОВИНКИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#shop1-35\">ВИТРИНА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-2f\">ГАЛЕРЕЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-2m\">НАМ ДОВЕРЯЮТ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features16-32\">VIDREPUR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-2o\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"assets/files/Vidrepurfull.pdf\" target=\"_blank\">КАТАЛОГ МОЗАИКИ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-vidrepur-448x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">(098)513-51-19</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1z"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "БАССЕЙНА",
+            "animText2": "ХАММАМА",
+            "animText3": "ИНТЕРЬЕРА",
+            "typeSpeed": 60,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grid-684989-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#234a56",
+            "overlayOpacity": "0.8"
+          },
+          "title": "МОЗАИКА VIDREPUR&nbsp;<br>ДЛЯ&nbsp;",
+          "text": "<b>ОПТОВЫЕ ПОСТАВКИ МОЗАИКИ ОТ ОФИЦИАЛЬНОГО ПРЕДСТАВИТЕЛЯ VIDREPUR</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html#form2-2p\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-hand-pointer-o mbr-iconfont mbr-iconfont-btn\"></span>ОПТОВЫЕ ЦЕНЫ</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header11",
+          "_anchor": "header11-1y",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "B": {
+              "font-size": "20px",
+              "color": "#171820"
+            },
+            "P": {
+              "color": "#0b0906"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title B": {
+              "color": "#1abc9c"
+            }
+          },
+          "_params": {
+            "showHeader": true,
+            "showHeaderText": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "2",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/trillion-5-990x743.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#234a56",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#bdc3c7",
+            "overlayOpacity": "0.9"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "VIDREPUR - ОПТИМАЛЬНЫЙ ВЫБОР",
+          "text": "",
+          "title11": "<b>КОЭФФИЦИЕНТ ВОДОПОГЛОЩЕНИЯ \n<br>0%</b>",
+          "title12": "<b>МОРОЗОСТОЙКАЯ, ЖАРОПРОЧНАЯ \n<br>ОТ -30°С ДО +145°С</b>",
+          "title13": "<b>УСТОЙЧИВА К ХИМИИ \n<br>И УЛЬТРАФИОЛЕТУ</b>",
+          "title21": "<b>ПРОИЗВОДСТВО - ИСПАНИЯ</b>",
+          "title22": "<b>БОЛЕЕ 30 КОЛЛЕКЦИЙ</b>",
+          "title23": "<b>100% ЭКОЛОГИЧНА</b>",
+          "title31": "BOOST YOUR RANKING",
+          "title32": "BOOST YOUR RANKING",
+          "title33": "BOOST YOUR RANKING",
+          "title51": "BOOTSTRAP BUILDER",
+          "title52": "BOOTSTRAP BUILDER",
+          "title53": "BOOTSTRAP BUILDER",
+          "title61": "TRENDY WEBSITE BLOCKS",
+          "title62": "TRENDY WEBSITE BLOCKS",
+          "title63": "TRENDY WEBSITE BLOCKS",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-success\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs1-1u\" aria-expanded=\"false\"><b>ХАРАКТЕРИСТИКИ</b></a></li><li class=\"nav-item nav-item-last\" style=\"display: inline-block;\"><a class=\"nav-link text-success active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs1-1u\" aria-expanded=\"true\">&nbsp;<b>ПРЕИМУЩЕСТВА&nbsp;</b></a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs1-1u\" aria-expanded=\"false\">Animated</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs1-1u\" aria-expanded=\"false\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs1-1u\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs1-1u\">Beautiful</a></li>",
+          "media11": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "no-drop",
+              "family": "iconsMind",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media12": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "winter-temperature",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media13": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "chemical",
+              "family": "iconsMind",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "spain",
+              "family": "iconsMind",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "files2",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "recycle-1",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media31": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media32": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media33": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media41": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media42": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "attachment",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media43": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media51": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media52": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media53": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media61": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media62": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media63": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "text11": "Это обеспечивает долговечность мозаики и делает её идеальной для использования в бассейнах и влажных помещениях.",
+          "text12": "Стеклянная мозаика выдерживает более 100 циклов природных перепадов температур без потери свойств.",
+          "text13": "Отлично переносит воздействие агресивных химических веществ и <br>УФ-лучей без потери цвета и прочности.",
+          "text21": "Вся мозаика производится на фабрике VIDREPUR в Испании, Кастельоне. И соответствует всем европейским нормам качества и безопасности.&nbsp;",
+          "text22": "Ассортимент мозаики представлен более чем тридцатью коллекциями. И способен удовлетворить самые изысканные дизайнерские решения.",
+          "text23": "Мозаика VIDREPUR изготавливается из экологически чистого сырья, поэтому безопасна как для человека, так и для окружающей среды.",
+          "text31": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "text32": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "text33": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "text41": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text42": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text43": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text51": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text52": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text53": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text61": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "text62": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "text63": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "tabs1",
+          "_anchor": "tabs1-1u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/imag3851-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#232323",
+            "overlayOpacity": "0.8"
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/honey-320x320.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fusion-600x360.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nordic1-1-600x450.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/soul1-600x450.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/510-1-600x400.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "НОВЫЕ КОЛЛЕКЦИИ",
+          "title1": "Bootstrap 4",
+          "subtitle1": "<b>HONEY</b>",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"assets/files/VI_Ed3%20HONEY%2022X30%20B.pdf\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ</a>",
+          "title2": "Responsive",
+          "subtitle2": "<b>FUSION</b>",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"assets/files/FUSION%20COLLECTION(1).pdf\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "<b>NORDIC</b>",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"assets/files/VI_Ed3-NORDIC-22X30.pdf\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "<b>SOUL</b>",
+          "caption4": "",
+          "buttons4": "<a data-app-btn=\"true\" href=\"assets/files/VI_Ed1%20SOUL%2022X30.pdf\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "<b>POOLS</b>",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"assets/files/Vidrepur%20pool%20catalog.pdf\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "КАТАЛОГ",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">СМОТРЕТЬ</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-2e"
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@subtitleFont",
+              "color": "#c0392b"
+            },
+            ".onsale": {
+              "color": "#c0392b"
+            },
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center",
+              "color": "#3498db"
+            },
+            ".card-description P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSidebar": false,
+            "showSortButtons": false,
+            "showBestSellers": false,
+            "priceRange": false,
+            "filter": false,
+            "showStars": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgColor": "#234a56",
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "tags": "",
+                "bestSeller": false,
+                "itemTitle": "COLOR FOG",
+                "itemSubtitle": "",
+                "itemDescription": "COLOR FOG - это классическая стеклянная мозаика дымчатых оттенков.<br><ul><li>На бумажной основе.</li> <li>Размер листа: 315мм х 315 мм.</li><li>Размер плиток: 25мм х 25мм.</li> <li>В упаковке 2м², 20 листов.</li> <li>Материал - стекло.</li></ul>Применяется в бассейне, ванной комнате или в качестве элемента интерьера. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €20.50*",
+                "onsale": "SALE 16% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/color fog price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/ref.-110.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ref.-110-400x400.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
+                "stars": "@PROJECT_PATH@/assets/images/5.png",
+                "caption": "Type caption here",
+                "onSale": false,
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "bestSeller": false,
+                "itemTitle": "COLOR SOLID",
+                "itemSubtitle": "",
+                "itemDescription": "COLOR SOLID - это основная коллекция мозаики, ее преимущество - &nbsp;самая большая палитра.<br><ul><li>На бумажной основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.</li><li>Материал - стекло.</li></ul>Идеальна для бассейна, ванной комнаты или в качестве элемента интерьера. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €20.50*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/color solid price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/vidrepur-colors-832.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vidrepur-colors-832-800x800.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "itemTitle": "BLENDS(миксы)",
+                "itemSubtitle": "",
+                "itemDescription": "BLENDS - это сочетание двух и более оттенков коллекций COLOR FOG и COLOR SOLID.<br><ul><li>На бумажной или сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.</li><li>Материал - стекло.</li></ul>Разнообразие миксов делает мозаику Vidrepur универсальным решением. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €20.50*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/BLENDS price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/ref.-100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ref.-100-400x400.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
+                "stars": "@PROJECT_PATH@/assets/images/2.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "bestSeller": false,
+                "itemTitle": "COLOR+TITANIUM",
+                "itemSubtitle": "",
+                "itemDescription": "<p>COLOR+TITANIUM - это COLOR (solid,<span style=\"color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;;\">&nbsp;fog)&nbsp;</span><span style=\"color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;;\">с вкраплением коллекции TITANIUM.</span></p><p></p><ul><li>На сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.\n</li><li>Материал - стекло.</li></ul>Это сочетание придаст индивидуальности любому проекту. Цена за 1м².<br><p></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €34.00*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/color+price.pdf\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/vidrepur-colors-plus-turquesa-501.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vidrepur-colors-plus-turquesa-501-800x800.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "itemTitle": "ANTISLIP",
+                "itemSubtitle": "",
+                "itemDescription": "ANTISLIP - противоскользящая мозаика, доступная во многих коллекциях.<br><ul><li>На сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.\n</li><li>Материал - стекло.</li></ul>ANTISLIP позволяет предотвратить падения на мокрых поверхностях. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €34.00*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/antislip price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/ref.-501.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ref.-501-400x400.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
+                "stars": "@PROJECT_PATH@/assets/images/2.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "itemTitle": "SHELL",
+                "itemSubtitle": "",
+                "itemDescription": "SHELL - мозаика перламутровых оттенков с эффектным мерцанием.<br><ul><li>На сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.\n</li><li>Материал - стекло.</li></ul>Придаст бассейну привлекательность и яркий, искрящийся блеск. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €37.00*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/shell%20price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/shell-azure-552-6-.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/shell-azure-552-6-400x400.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
+                "stars": "@PROJECT_PATH@/assets/images/2.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "itemTitle": "LUX",
+                "itemSubtitle": "",
+                "itemDescription": "LUX - яркая, блестящая мозаика с комбинацией нескольких оттенков одного цвета.<br><ul><li>На сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 2м², 20 листов.\n</li><li>Материал - стекло.\n</li></ul>Коллекция LUX наполнит любое пространство светом и сиянием. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €61.00*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/lux price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/vidrepur-lux-404.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vidrepur-lux-404-800x800.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/1.png",
+                "stars": "@PROJECT_PATH@/assets/images/1.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "bestSeller": false,
+                "itemTitle": "TITANIUM",
+                "itemSubtitle": "",
+                "itemDescription": "TITANIUM - рельефная мозаика с изысканными, зеркальными оттенками.<br><ul><li>На сетчатой основе.\n</li><li>Размер листа: 315мм х 315 мм.\n</li><li>Размер плиток: 25мм х 25мм.\n</li><li>В упаковке 1м², 10 листов.\n</li><li>Материал - стекло.</li></ul>Эта мозаика для тех случаев, кагда важен статус и престиж. Цена за 1м².<br>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "от €80.00*",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"assets/files/titanium%20price.pdf\" class=\"btn btn-primary btn-primary-outline\">СМОТРЕТЬ ВСЕ ЦЕНЫ</a>",
+                "image": "@PROJECT_PATH@/assets/images/vidrepur-titanium-780.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vidrepur-titanium-780-800x800.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "title": "<span style=\"font-weight: normal;\">ЛИДЕРЫ ПРОДАЖ</span>",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: low to high</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Price: high to low</a>",
+          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\">Default sorting</a>",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "allItem": "All",
+          "sidebar1": "Best Sellers",
+          "sidebar2": "Filter by price",
+          "sidebar3": "Product Categories",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "shop1",
+          "_anchor": "shop1-35"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#234a56"
+          },
+          "title": "ОБЪЕКТЫ С МОЗАИКОЙ VIDREPUR",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-2f"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6972-2000x1333.jpg",
+                "contentAlign": "center",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "НАШИ ОБЪЕКТЫ",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8056-2000x1333.jpg",
+                "contentAlign": "left",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "НАШИ ОБЪЕКТЫ",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-7009-2000x1333.jpg",
+                "contentAlign": "right",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "НАШИ ОБЪЕКТЫ",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8090-2000x1333.jpg",
+                "contentAlign": "right",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "НАШИ ОБЪЕКТЫ",
+                "overlay": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/photo-8-1400x931.jpg",
+                "contentAlign": "left",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "НАШИ ОБЪЕКТЫ",
+                "overlay": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">",
+          "articleLayout": false,
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-37",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "color": "#3498db",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#3498db",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#3498db"
+            },
+            ".mbr-section-text B": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-15-1400x932.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2ecc71",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#232323",
+            "overlayOpacity": "0.8"
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "diploma-2",
+              "family": "iconsMind",
+              "active": true,
+              "size": 0,
+              "color": "#edf058"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "euro-fall",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#edf058"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "briefcase",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#edf058"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "cary-box",
+              "family": "icon54-v3",
+              "active": true,
+              "size": 0,
+              "color": "#edf058"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "hands-with-rings",
+              "family": "icon54-v4",
+              "active": true,
+              "size": 0,
+              "color": "#edf058"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "НАМ ДОВЕРЯЮТ!",
+          "title1": "Bootstrap 4",
+          "subtitle1": "<b>ОФИЦИАЛЬНЫЙ ПОСТАВЩИК</b>",
+          "caption1": "Мы - официальный представитель VIDREPUR в Украине, поэтому гарантируем качество.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "<b>ЛУЧШАЯ ЦЕНА</b><br><b>НА РЫНКЕ</b>",
+          "caption2": "У нас самые демократичные цены на оригинальную мозаику<br> VIDREPUR.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "<b>ИНФОРМАЦИОННАЯ</b><br><b>ПОДДЕРЖКА</b>",
+          "caption3": "Консультируем, обучаем и предоставляем каталоги и образцы мозаики.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "<b>НАЛИЧИE</b><br><b>НА СКЛАДЕ</b>",
+          "caption4": "Одно из наших преимуществ - большой ассортимент мозаики в наличии на складе.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "<b>ПАРТНЕРСКАЯ</b><br><b>ПРОГРАММА</b>",
+          "caption5": "Мы предлагаем качественный сервис, прозрачные и выгодные условия сотрудничества.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2m"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grid-684989-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#f9593a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#4e6686",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "flag",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "group",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "maps-place",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "industry",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title": "VIDREPUR",
+          "title1": "Bootstrap 4",
+          "subtitle1": "<b>30 ЛЕТ&nbsp;</b>",
+          "caption1": "Компания VIDREPUR была основана в 1988 году в Алмасоре (Кастельоне) Испания.",
+          "title2": "Responsive",
+          "subtitle2": "<b>4000</b> <b>ДИЛЕРОВ</b>",
+          "caption2": "Более 4000 официальных представителей по всему миру отдают предпочтение VIDREPUR.",
+          "title3": "Web Fonts",
+          "subtitle3": "<b>3 ФИЛИАЛА</b>",
+          "caption3": "Сегодня представительства компании VIDREPUR открыты в Испании, США и Мексике.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "<b>4 000 000 М²</b>",
+          "caption4": "Ежегодно VIDREPUR производит более&nbsp;4 000 000 м² мозаики<br> и постоянно увеличивает объемы.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-32"
+        },
+        {
+          "_styles": {
+            "SPAN": {
+              "font-size": "23px"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#232323"
+            }
+          },
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "googleMap": {
+              "address": "kiev, priorska str. 21",
+              "placeId": "ChIJ09od337S1EAR-4-igal1pGQ",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1f79bddd11e2937f7c62a40274233ddd-showrooms-640x480.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#7f8c8d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#7f8c8d",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title1": "Киев, ул.Приорская 21, оф.217",
+          "title2": "+38(098)513-51-19",
+          "title3": "vohaperepel@gmail.com",
+          "cat1": "АДРЕС",
+          "cat2": "ТЕЛЕФОН",
+          "cat3": "email",
+          "text": "По  вопросам сотрудничества свяжетесь с нами любым удобным способом. Следите за новостями компании в социальных сетях или подпишитесь на рассылку с помощью <b><i><a href=\"index.html#form2-2p\" class=\"text-info\">контактной формы</a>.</i></b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://www.facebook.com/vidrepur.com.ua/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-facebook\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2o"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/fachada%20dia%20(1)-1824x1433.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#234a56",
+            "overlay": true,
+            "overlayColor": "#2980b9",
+            "overlayOpacity": "0.9"
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "КОНТАКТНАЯ ФОРМА",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "text": "Воспользовавшись этой формой Вы можете отправить запрос на получение ценового предложения, образцов и каталогов. Также задать вопрос относительно продукции или сотрудничества с нами.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"sli-envelope-letter mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>ОТПРАВИТЬ</a>",
+          "form": {
+            "action": "VOHAPEREPEL@GMAIL.COM",
+            "alerts": {
+              "success": "СПАСИБО ЗА ОБРАЩЕНИЕ. НАШ ПРЕДСТАВИТЕЛЬ СВЯЖЕТСЯ С ВАМИ В БЛИЖАЙШЕЕ ВРЕМЯ."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "КОМПАНИЯ"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "E-MAIL"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "ТЕЛЕФОН"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "УКАЖИТЕ КАКАЯ ИНФОРМАЦИЯ ВАС ИНТЕРЕСУЕТ"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-2p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "* - цена указана в евро в рекламных целях, оплата производится в гривнах по коммерческому курсу.&nbsp;<br>Copyright (c) 2017&nbsp;<a href=\"#top\" class=\"text-warning\">Vidrepur.com.ua</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-31"
+        }
+      ]
+    }
+  }
+}
